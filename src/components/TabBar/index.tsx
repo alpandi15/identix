@@ -8,8 +8,7 @@ const Styles = ({isFocused = false}) =>
   StyleSheet.create({
     container: {
       flexDirection: 'row',
-      // borderTopWidth: 1,
-      height: 66,
+      height: 60,
       backgroundColor: '#FFFFFF',
     },
     buttonTab: {
@@ -17,14 +16,15 @@ const Styles = ({isFocused = false}) =>
       backgroundColor: '#FFF',
       justifyContent: 'center',
       alignItems: 'center',
-      height: 66,
+      height: 60,
+      borderRadius: 25,
     },
     tabContent: {
       alignItems: 'center',
       justifyContent: 'center',
     },
     textLabel: {
-      fontSize: 14,
+      fontSize: 12,
       color: isFocused ? '#222222' : '#898989',
     },
   });
@@ -77,6 +77,8 @@ export const CustomTabBar: FC<BottomTabBarProps> = ({
             key={index}
             style={Styles({}).buttonTab}
             onPress={onPress}
+            centered={true}
+            borderless={true}
             // rippleColor="rgba(0, 0, 0, .10)"
             onLongPress={onLongPress}>
             <View style={Styles({}).tabContent}>

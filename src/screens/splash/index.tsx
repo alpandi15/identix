@@ -15,7 +15,7 @@ const SplashScreen = (): JSX.Element => {
   useEffect(() => {
     setTimeout(() => {
       navigation.replace('MainStack');
-    }, 1000);
+    }, 2000);
   }, [navigation]);
 
   return (
