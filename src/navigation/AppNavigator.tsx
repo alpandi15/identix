@@ -17,10 +17,10 @@ const AppNavigator = () => {
   return (
     <NavigationContainer>
       <StackApp.Navigator
-        initialRouteName="MainStack"
+        initialRouteName="Loading"
         screenOptions={navOptionHandler}>
         <StackApp.Screen
-          name={Routes.SplashSceeen.name}
+          name="Loading"
           component={Routes.SplashSceeen.component}
           options={navOptionHandler}
         />

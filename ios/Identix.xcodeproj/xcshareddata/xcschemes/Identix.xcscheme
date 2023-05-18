@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Indentix.app"
-               BlueprintName = "Indentix"
-               ReferencedContainer = "container:Indentix.xcodeproj">
+               BuildableName = "Identix.app"
+               BlueprintName = "Identix"
+               ReferencedContainer = "container:Identix.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "IndentixTests.xctest"
-               BlueprintName = "IndentixTests"
-               ReferencedContainer = "container:Indentix.xcodeproj">
+               BuildableName = "IdentixTests.xctest"
+               BlueprintName = "IdentixTests"
+               ReferencedContainer = "container:Identix.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Indentix.app"
-            BlueprintName = "Indentix"
-            ReferencedContainer = "container:Indentix.xcodeproj">
+            BuildableName = "Identix.app"
+            BlueprintName = "Identix"
+            ReferencedContainer = "container:Identix.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Indentix.app"
-            BlueprintName = "Indentix"
-            ReferencedContainer = "container:Indentix.xcodeproj">
+            BuildableName = "Identix.app"
+            BlueprintName = "Identix"
+            ReferencedContainer = "container:Identix.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

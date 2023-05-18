@@ -1,4 +1,4 @@
-package com.indentix;
+package com.identix;
 
 import android.app.Application;
 import com.facebook.react.PackageList;

@@ -13,6 +13,7 @@ const theme: ThemeProp = {
     primary: '#FFDF00',
     secondary: '#1E1E1E',
     tertiary: '#606060',
+    gray200: '#898989',
   },
 };
 
