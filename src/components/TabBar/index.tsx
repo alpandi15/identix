@@ -1,8 +1,8 @@
 import {BottomTabBarProps} from '@react-navigation/bottom-tabs';
 import React, {FC} from 'react';
-import {TouchableRipple, Text, Surface} from 'react-native-paper';
+import {TouchableRipple, Surface} from 'react-native-paper';
 // import {BottomNavigation} from 'react-native-paper';
-import {View, StyleSheet} from 'react-native';
+import {View, StyleSheet, Text} from 'react-native';
 
 const Styles = ({isFocused = false}) =>
   StyleSheet.create({
@@ -26,6 +26,7 @@ const Styles = ({isFocused = false}) =>
     textLabel: {
       fontSize: 12,
       color: isFocused ? '#222222' : '#898989',
+      fontWeight: '500',
     },
   });
 
