@@ -16,7 +16,7 @@ const navOptions: BottomTabNavigationOptions = {
 
 const BottomTabNavigator: FC = () => {
   return (
-    <Tab.Navigator tabBar={CustomTabBar} sceneContainerStyle={{paddingTop: 48}}>
+    <Tab.Navigator tabBar={CustomTabBar}>
       <Tab.Screen
         name={Routes.HomeSceeen.name}
         component={Routes.HomeSceeen.component}

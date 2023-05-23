@@ -1,12 +1,15 @@
 import React, {FC} from 'react';
 import {Provider as PaperProvider, MD3LightTheme} from 'react-native-paper';
 import {StatusBar} from 'react-native';
-import {ThemeProp} from 'react-native-paper/lib/typescript/src/types';
+import {MD2Theme, ThemeProp} from 'react-native-paper/lib/typescript/src/types';
 import AppNavigator from './src/navigation/AppNavigator';
 // import EvilIcons from 'react-native-vector-icons/EvilIcons';
 // import {IconProps} from 'react-native-vector-icons/Icon';
 
-const theme: ThemeProp = {
+// interface ThemePropsCustom extends ThemeProp {
+
+// }
+const theme: ThemeProp|any = {
   ...MD3LightTheme,
   colors: {
     ...MD3LightTheme.colors,
