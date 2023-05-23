@@ -2,29 +2,30 @@ import {BottomTabBarProps} from '@react-navigation/bottom-tabs';
 import React, {FC} from 'react';
 import {TouchableRipple, Surface} from 'react-native-paper';
 // import {BottomNavigation} from 'react-native-paper';
-import {View, StyleSheet, Text} from 'react-native';
+import {View, StyleSheet, Text, Platform} from 'react-native';
 
 const Styles = ({isFocused = false}) =>
   StyleSheet.create({
     container: {
       flexDirection: 'row',
-      height: 60,
-      backgroundColor: '#FFFFFF',
+      height: Platform.OS === 'ios' ? 111 : 66,
+      backgroundColor: '#ffffff',
     },
     buttonTab: {
       flex: 1,
       backgroundColor: '#FFF',
       justifyContent: 'center',
       alignItems: 'center',
-      height: 60,
+      // height: 66,
       borderRadius: 25,
+      paddingBottom: 45,
     },
     tabContent: {
       alignItems: 'center',
       justifyContent: 'center',
     },
     textLabel: {
-      fontSize: 12,
+      fontSize: 10,
       color: isFocused ? '#222222' : '#898989',
       fontWeight: '500',
     },
